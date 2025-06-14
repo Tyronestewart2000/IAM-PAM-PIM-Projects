@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tyrone Stewart | IAM Projects</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #0a192f;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    p.tagline {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #a0aec0;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section.project {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid #3b82f6;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    h2 {
+      margin-top: 0;
+      color: #1e40af;
+    }
+    .links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #edf2f7;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tyrone Stewart</h1>
+    <p class="tagline">IAM Projects | Microsoft Entra ID | Azure AD | SSO & MFA</p>
+  </header>
+
+  <main>
+
+    <section class="project">
+      <h2>🔒 Multi-Factor Authentication (MFA) Setup</h2>
+      <p>Configured MFA for a test user group in Microsoft Entra ID using Conditional Access. Tested successful MFA prompts on Azure AD-joined devices.</p>
+      <p><strong>Skills:</strong> Entra ID, Conditional Access, MFA, Azure Portal</p>
+      <div class="links">
+        <a href="#">GitHub Repo</a>
+        <a href="#">Screenshot</a>
+        <a href="#">ReadMe</a>
+      </div>
+    </section>
+
+    <section class="project">
+      <h2>🌐 SSO Integration with Microsoft Forms</h2>
+      <p>Connected Microsoft Forms with Entra ID using SAML-based SSO. Configured enterprise app registration and tested user login flow.</p>
+      <p><strong>Skills:</strong> SAML, Entra ID, Enterprise Apps, Federation</p>
+      <div class="links">
+        <a href="#">GitHub Repo</a>
+        <a href="#">Screenshot</a>
+        <a href="#">Documentation</a>
+      </div>
+    </section>
+
+    <section class="project">
+      <h2>🔐 Conditional Access Policy Lab</h2>
+      <p>Created policies to enforce MFA for risky users and block logins outside the US. Simulated sign-ins using different IPs and risk levels.</p>
+      <p><strong>Skills:</strong> Conditional Access, Risk-based Access, Microsoft Entra ID</p>
+      <div class="links">
+        <a href="#">GitHub Repo</a>
+        <a href="#">Screenshot</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    📫 Contact: tyrone.stewart@example.com |
+    <a href="#">GitHub</a> |
+    <a href="#">LinkedIn</a> |
+    <a href="#">Resume</a>
+  </footer>
+
+</body>
+</html>
